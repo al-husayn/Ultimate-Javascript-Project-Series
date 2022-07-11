@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: tomato;
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+
+}
+
+.container{
+    background: teal;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 20px;
+}
+
+.result{
+    border: 2px dashed #fff;
+    width: 80px;
+    text-align: center;
+
+
+}
